@@ -20,7 +20,7 @@ import telebot
 import os
 import requests
 
-TOKEN = os.environ.get('8441531405:AAGp_G5tY0Li-SwI9fWh72PGyqilAjrhEnk')  # Tokeni Koyeb environment variable-dan götürür
+TOKEN = os.environ.get('TOKEN')  # Tokeni Koyeb environment variable-dan götürür
 bot = telebot.TeleBot(TOKEN)
 
 # --- TikTok/Instagram Downloader ---
